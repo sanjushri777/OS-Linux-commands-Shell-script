@@ -54,7 +54,7 @@ cmp file1 file2
 ![alt text](<Images/Screenshot 2024-08-27 224246.png>)
 
 comm file1 file2
- ## OUTPUT
+## OUTPUT
 ![alt text](<Images/Screenshot 2024-08-27 224435.png>)
  
 diff file1 file2
@@ -502,7 +502,7 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
 ![alt text](<Images/Screenshot 2024-08-28 051542.png>)
 
 chmod 755 strcomp.sh
@@ -627,7 +627,7 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
 ![alt text](<Images/Screenshot 2024-08-28 052430.png>)
 
 # check if a file
@@ -791,6 +791,7 @@ done
 ```
  
 $ chmod 755 forin1.sh
+## OUTPUT
 ![alt text](<Images/Screenshot 2024-08-28 054139.png>)
  
 cat forin2.sh 
@@ -997,12 +998,12 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
 ./funcex.sh 
+## OUTPUT
 ![alt text](<Images/Screenshot 2024-08-28 062051.png>)
  
-## OUTPUT
 ./funcex.sh 1 2
+## OUTPUT
 ![alt text](<Images/Screenshot 2024-08-28 062139.png>)
  
 cat argshift.sh
@@ -1015,8 +1016,8 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
 ![alt text](<Images/Screenshot 2024-08-28 062332.png>)
 
 cat argshift1.sh
@@ -1034,8 +1035,9 @@ done
 ```
 $ chmod 777 argshift1.sh
 
-## OUTPUT
+
 $ ./argshif1t.sh 1 2 3
+## OUTPUT
 ![alt text](<Images/Screenshot 2024-08-28 062554.png>) 
 
 cat argshift3.sh
@@ -1048,8 +1050,9 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
+
 ./argshift3.sh 1 2 3
+## OUTPUT
 ![alt text](<Images/Screenshot 2024-08-28 062812.png>) 
  
 cat > nc.awk
