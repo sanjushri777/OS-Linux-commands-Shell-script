@@ -1,3 +1,7 @@
+#Name: SANJUSHRI A
+#Register No:212223040187
+#OS-Linux-commands-Shell-scripting
+
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
